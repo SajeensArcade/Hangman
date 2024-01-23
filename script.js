@@ -65,7 +65,7 @@ function Hidden_Buttons() {
   console.log(movie_pick)
   $("Letter").hidden = false;
   $("Enter_Button").hidden = false;
-  $("refresh").hidden = true
+  $("buttonthree").hidden = true
  
 }
 
