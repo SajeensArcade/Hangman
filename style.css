@@ -1,0 +1,195 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 70px;
+}
+
+
+h3.intro {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+#Instructions {
+  background-color: lightsteelblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+}
+
+#Instructions:hover {
+  background-color: orange;
+  transition-duration: 0.3s;
+}
+
+#Go_Back {
+  background-color: lightsteelblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+}
+
+#Go_Back:hover {
+  background-color: orange;
+  transition-duration: 0.3s;
+}
+
+#Game {
+  background-color: lightsteelblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+}
+
+.Button {
+  border-color: white;
+  text-align: center;
+}
+
+#Game:hover {
+  background-color: orange;
+  transition-duration: 0.3s;
+}
+
+.color {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.Background {
+  text-align: center;
+
+}
+
+.Background img {
+  width: 400px;
+  height: 400px;
+}
+
+#StartGame {
+  text-align: center;
+  background-color: lightsteelblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+#BeginButton {
+  background-color: lightsteelblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+}
+
+.align {
+  text-align: center;
+
+
+}
+
+.textbox {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.Category {
+  font-size: 30px;
+  color: black;
+}
+
+#begin {
+  font-size: 30px;
+  background-color: lightsteelblue;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+}
+
+#Enter_Button {
+  font-size: 30px;
+  background-color: lightsteelblue;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+}
+
+.Enter_Button {
+  text-align: center;
+  right: 40px;
+}
+
+#underline {
+  letter-spacing: 4px;
+  font-size: 50px;
+  size: 70px;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+#Game2 {
+  background-color: lightsteelblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+}
+
+#gamebegin {
+  background-color: lightsteelblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+  text-align: center;
+
+}
+
+#Game2:hover {
+  background-color: orange;
+  transition-duration: 0.3s;
+}
+
+#Instructiontwo {
+  background-color: lightsteelblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+  text-align: center;
+}
+
+#begin:hover {
+  background-color: orange;
+  transition-duration: 0.3s;
+}
+
+#buttonthree {
+  background-color: lightsteelblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  color: white;
+  text-align: center;
+}

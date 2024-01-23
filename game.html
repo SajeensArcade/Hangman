@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<html>
+
+<body style="background-color: lightblue;">
+
+  <head>
+    <script src="https://misterbrash.github.io/Hangman_DB/hangman_helper.js" defer></script>
+    <!-- This will load the script file AFTER the document is loaded -->
+    <script src="script.js" defer></script>
+
+  </head>
+
+  <body>
+    <div class="title" id="title">
+      <img src="images/title1.png">
+    </div>
+    <div class="Background">
+      <img src="images/hangman.png" id="hangman">
+    </div>
+    <h1 class="Category" id="Movies">Category: Movies</h1>
+    <h1 class="Category" id="Disney_Movies">Category: Disney Movies</h1>
+    <h1 class="Category" id="MLB_Teams">Category: MLB Teams</h1>
+    <h1 class="Category" id="NHL_Teams">Category: NHL Team</h1>
+    <h1 class="Category" id="NBA_Teams">Category: NBA Teams</h1>
+    <h1 class="Category" id="NFL_Teams">Category: NFL Teams</h1>
+    <h1 class="Category" id="5_Letter">Category: 5 Letter Words</h1>
+    <h1 class="Category" id="Beautiful_Word">Category: Beautiful Words</h1>
+    <h1 class="Category" id="Nba_Players">Category: NBA Players</h1>
+    <p id="guessedLetters" hidden>Guessed Letters:</p>
+    <div class="align">
+      <!-- When Button is clicked it will run game() from script.js and the hangman game will start -->
+      <button onclick=game() id="begin">Begin!</button>
+      <div class="Button"> <br>
+        <a href="instruction.html">
+          <button id="Instructions"> Instructions </button></a> <br>
+        <br>
+      </div>
+      <button type="submit" onclick="refreshPage()" id="buttonthree">Pick Different Category</button>
+      <!-- <button type="submit" onclick="refreshpage()">refresh for Different Category</button> -->
+      <div id="underline">
+      </div>
+      <br>
+      <div class="textbox">
+        <input type="text" style=" text-transform: lowercase;font-size: 30px;" maxlength="1"
+          placeholder="Enter a Letter" id="Letter" name="Letter" inputmode="search" hidden>
+      </div>
+      <div class="Enter_Button">
+        <button id="Enter_Button" hidden>Enter</button>
+      </div>
+      <img src="images/trophy.png" id="trophy" hidden>
+
+      <h1 id="YouLose" style="text-align: center;"> </h1>
+      <div class="text">
+        <a href="game.html">
+          <button id="Play_Again" hidden style="text-align: center; background-color: lightsteelblue; font-size: 30px; font-family: 'Times New Roman', Times, serif;
+  border-color: white; color: white;">Play Again!</button> </a </div>
+  </body>
+
+</html>
