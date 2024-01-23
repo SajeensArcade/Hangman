@@ -141,6 +141,7 @@ function Enter_Key(event) {
       $("underline").hidden = true
       $("Enter_Button").hidden = true
       $("Play_Again").hidden = false
+      $("buttonthree").hidden = true
     }
     if (movie_pick == hidden_word) {
       $("YouLose").innerHTML = ("You Win!")
@@ -160,6 +161,7 @@ function Enter_Key(event) {
       $("Enter_Button").hidden = true
       $("Play_Again").hidden = false
       $("trophy").hidden = false
+      $("buttonthree").hidden = true
     }
     document.getElementById("underline").innerHTML = "" + hidden_word
     // document.getElementById("guessedLetter").innerHTML = "Guessed Letter: " + user_guess.join(", ")
