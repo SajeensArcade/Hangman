@@ -62,7 +62,8 @@ $("begin").addEventListener("click", Hidden_Buttons);
 function Hidden_Buttons() {
   $("Instructions").hidden = true;
   $("begin").hidden = true;
-  console.log(movie_pick)
+  // Unhide code if you want to know the answer when game is started
+  // console.log(movie_pick)
   $("Letter").hidden = false;
   $("Enter_Button").hidden = false;
   $("buttonthree").hidden = true
