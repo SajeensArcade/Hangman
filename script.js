@@ -143,6 +143,7 @@ function Enter_Key(event) {
       $("Enter_Button").hidden = true
       $("Play_Again").hidden = false
       $("buttonthree").hidden = true
+      $("YouLose").innerHTML = (" You Lost, The word was " + movie_pick)
     }
     if (movie_pick == hidden_word) {
       $("YouLose").innerHTML = ("You Win!")
